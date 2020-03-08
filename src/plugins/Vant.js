@@ -1,0 +1,57 @@
+import Vue from 'vue'
+import {
+  Button,
+  NavBar,
+  Tabbar,
+  TabbarItem,
+  Swipe,
+  SwipeItem,
+  Grid,
+  GridItem,
+  Image,
+  Notify,
+  Lazyload,
+  Col,
+  List,
+  Cell,
+  PullRefresh,
+  Toast,
+  Loading,
+  Card,
+  Stepper,
+  Icon,
+  Tabs,
+  Tab,
+  Field,
+  CellGroup,
+  Search,
+  Divider,
+  SwipeCell,
+  Tag,
+  SubmitBar
+} from 'vant'
+Vue.use(Button)
+Vue.use(NavBar)
+Vue.use(Tabbar).use(TabbarItem)
+Vue.use(Swipe).use(SwipeItem)
+Vue.use(Grid).use(GridItem)
+Vue.use(Image)
+Vue.use(Notify)
+Vue.use(Lazyload)
+Vue.use(Col)
+Vue.use(List)
+Vue.use(Cell)
+Vue.use(PullRefresh)
+Vue.use(Toast)
+Vue.use(Card).use(Loading)
+Vue.use(Stepper)
+Vue.use(Icon)
+Vue.use(Tabs)
+Vue.use(Tab)
+Vue.use(Field)
+Vue.use(CellGroup)
+Vue.use(Search)
+Vue.use(Divider)
+Vue.use(SwipeCell)
+Vue.use(Tag)
+Vue.use(SubmitBar)
